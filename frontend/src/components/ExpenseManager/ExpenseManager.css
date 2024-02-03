@@ -1,0 +1,205 @@
+.container {
+    width: 78vw;
+     margin-top: -5em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 4px solid black;
+    border-radius: 9px;
+    padding: 20px;
+    position: relative; 
+}
+.heading_name{
+    font-size: 25px;
+}
+
+.left-side1, .right-side1 {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.left-side1 {
+    margin-bottom: 5px;
+}
+
+.right-side1 {
+    margin-top: -73px; 
+    margin-left: auto; 
+}
+
+.date-picker-container {
+    position: relative;
+    margin-right: 10px;
+}
+
+.date-filter {
+    height: 33px;
+    width: 200px;
+    margin-top: 26px;
+    border: 3px solid black;
+    border-radius:0%;
+    padding: 0 10px;
+}
+
+.date-picker.small {
+    width: 150px;
+}
+.search-input{
+    width: 227px;
+    height: 32px;
+    border-radius: 0%;
+    margin-right: 16px;
+    margin-top: 25px;
+    border: 3px solid black;
+    
+
+}
+
+
+.new-expense-button {
+    height: 37px;
+    padding-left: 64px;
+    padding-right: 78px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: transparent;
+    border-radius: 0%;
+    background-color: rgb(28, 179, 28);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block; 
+    white-space: nowrap; 
+    text-align: center; 
+    vertical-align: middle; 
+    line-height: 40px;
+}
+
+
+
+.new-expense-button:hover {
+    background-color: #1b9e1b;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+.expense-table th,
+.expense-table td {
+    border: 1px solid #d3d3d3;
+    padding: 8px;
+    text-align: left;
+}
+
+.expense-table th {
+    background-color: silver;
+}
+
+.expense-table tbody td {
+    background-color: #fff;
+}
+
+.expense-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.page-item{
+    margin-top: 10px;
+
+}
+
+
+.addeditbutton{
+    color: black;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.deletebutton{
+    color: red;
+}
+/* Modal Styling */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content_data {
+    background-color: #fff;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    width: 400px; 
+    text-align: left;
+    position: relative; 
+}
+
+.close {
+    position: absolute;
+    bottom: 10px;
+    left: 69%;
+    width: 135px;
+    height: 20px;
+   border: transparent;
+    transform: translateX(-177%);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color:  #666666;
+}
+.close:hover{
+    color: white;
+}
+
+/* Form Styling */
+.modal-content_data form label {
+    font-weight: bold;
+    color: black;
+}
+
+.modal-content_data form input[type="text"],
+.modal-content_data form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: silver;
+}
+.submitmodal{
+    position: absolute;
+    width: 160px;
+    bottom: 10px;
+    left: 50%;
+    background-color: #1b9e1b;
+    transform: translateX(10%);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    border: transparent;
+}
+.selectcat {
+    display: block;
+    width: 19em;
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: silver; 
+  }
+  
+  .selectcat option {
+    background-color: white; 
+  }
+  
+
